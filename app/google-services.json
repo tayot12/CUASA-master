@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "417679405243",
+    "firebase_url": "https://auth-ea4c1-default-rtdb.firebaseio.com",
+    "project_id": "auth-ea4c1",
+    "storage_bucket": "auth-ea4c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417679405243:android:9eb6a889ee5c4e5b75b99e",
+        "android_client_info": {
+          "package_name": "com.project.cuasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417679405243-a59ui8qmumuh8qmcd3intupbu73d5ekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7OV0BOzWDpKu8y98U2Dj3bbAYDPtY9zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417679405243-a59ui8qmumuh8qmcd3intupbu73d5ekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417679405243:android:6b8c30a4e5572dc075b99e",
+        "android_client_info": {
+          "package_name": "com.riyadh.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417679405243-a59ui8qmumuh8qmcd3intupbu73d5ekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7OV0BOzWDpKu8y98U2Dj3bbAYDPtY9zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417679405243-a59ui8qmumuh8qmcd3intupbu73d5ekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

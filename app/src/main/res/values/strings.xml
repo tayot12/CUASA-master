@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cuasa - Catatan Uang Saku</string>
+    <string name="total_transaksi">Total Transaksi</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="catatan">Catatan</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="selisih">Selisih</string>
+    <string name="tambah_transaksi">Tambah Transaksi</string>
+    <string name="catatan_keuangan">Catatan Keuangan</string>
+    <string name="todo">TODO</string>
+    <string name="laporan_keuangan">Laporan Keuangan</string>
+    <string name="catatan_uang_saku">Catatan Uang Saku</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cuasa">Cuasa</string>
+</resources>

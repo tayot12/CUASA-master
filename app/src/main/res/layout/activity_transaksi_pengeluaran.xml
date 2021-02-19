@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#B4E5EA" >
+
+        <ImageButton
+            android:id="@+id/btn_kembali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="350dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Pengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"
+        android:text="Pengeluaran          ▼"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#C4C4C4"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengeluaran"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/rp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etNominal"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harus lebih dari 0 rupiah"
+        android:layout_marginLeft="270dp"
+        android:textSize="11sp"
+        />
+
+    <EditText
+        android:id="@+id/etCatatan"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint=" Catatan"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_catatan"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/datedeparture"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="  Date"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_date"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="280dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Tambah Transaksi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="#6FC5D6"
+        android:enabled="false"
+        />
+
+
+
+
+</LinearLayout>

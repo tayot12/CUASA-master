@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="100dp"
+    android:orientation="vertical"
+    tools:context="com.project.cuasa.activity.UpdateTransaksi">
+
+
+    <EditText
+        android:id="@+id/newNominalPemasukan"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:hint="Nominal Pemasukan Baru"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        />
+    <EditText
+        android:id="@+id/newNominalPengeluaran"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:hint="Nominal Pengeluaran Baru"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        />
+
+
+    <EditText
+        android:id="@+id/newCatatan"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint=" Catatan Baru"
+        android:layout_marginTop="0dp"
+        android:drawableStart="@drawable/ic_catatan"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newTanggal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="  Date baru"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_date"
+        android:textSize="18sp"
+        />
+
+    <!--<EditText
+        android:id="@+id/new_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Catatan"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/new_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Baru"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jurusan Baru"
+        android:inputType="textPersonName" />-->
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:enabled="false"
+        android:backgroundTint="#6FC5D6"/>
+
+</LinearLayout>
