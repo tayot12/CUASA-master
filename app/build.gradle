@@ -6,7 +6,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('D:\\Cuasa.jks')
+            storeFile file('D:\\AndroidProject\\Cuasa.jks')
             storePassword '123456'
             keyAlias 'Tayot'
             keyPassword '1234567'
